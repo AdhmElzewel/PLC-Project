@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ControlIO Version="v1.0.0">
+  <Properties SyncReset="true" CycleTime="10" />
+  <Diagram DiagramPosition="-2303,-446" DiagramScale="0.415520654867483">
+    <NodeData Key="4" Location="420 60" NodeType="OutputBit" MemMapAddress="10" NodeDescription="Stack Light 1 (Green)" />
+    <NodeData Key="5" Location="420 155" NodeType="OutputBit" MemMapAddress="4" NodeDescription="Main Conveyor" />
+    <NodeData Key="6" Location="285 145" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.And2" />
+    <NodeData Key="7" Location="150 170" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="9" Location="-905 60" NodeType="InputBit" MemMapAddress="7" NodeDescription="Pallet Beam" />
+    <NodeData Key="11" Location="-590 90" NodeType="OutputBit" MemMapAddress="0" NodeDescription="Chain Transfer Conveyor" />
+    <NodeData Key="12" Location="-735 80" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Sr" />
+    <NodeData Key="17" Location="-855 185" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Or4" />
+    <NodeData Key="18" Location="-1005 155" NodeType="InputBit" MemMapAddress="8" NodeDescription="Capacitive Sensor 1" />
+    <NodeData Key="19" Location="-1130 250" NodeType="InputBit" MemMapAddress="10" NodeDescription="Small Box Entry Sensor" />
+    <NodeData Key="20" Location="-1150 330" NodeType="InputBit" MemMapAddress="14" NodeDescription="Large Box Entry Sensor" />
+    <NodeData Key="21" Location="-995 415" NodeType="BooleanSource" ButtonChecked="False" />
+    <NodeData Key="10" Location="-1005 255" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="22" Location="-1005 345" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="8" Location="-275 160" NodeType="InputBit" MemMapAddress="8" NodeDescription="Capacitive Sensor 1" />
+    <NodeData Key="13" Location="-265 255" NodeType="InputBit" MemMapAddress="10" NodeDescription="Small Box Entry Sensor" />
+    <NodeData Key="14" Location="-285 335" NodeType="InputBit" MemMapAddress="14" NodeDescription="Large Box Entry Sensor" />
+    <NodeData Key="15" Location="-140 260" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="16" Location="-140 350" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="23" Location="10 190" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Or4" />
+    <NodeData Key="24" Location="-140 405" NodeType="BooleanSource" ButtonChecked="False" />
+    <NodeData Key="25" Location="-900 575" NodeType="InputBit" MemMapAddress="12" NodeDescription="Large Box Exit Sensor" />
+    <NodeData Key="26" Location="-905 485" NodeType="InputBit" MemMapAddress="14" NodeDescription="Large Box Entry Sensor" />
+    <NodeData Key="27" Location="-605 535" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Sr" />
+    <NodeData Key="28" Location="-450 520" NodeType="OutputBit" MemMapAddress="6" NodeDescription="Large Box Conveyor" />
+    <NodeData Key="29" Location="220 560" NodeType="OutputBit" MemMapAddress="5" NodeDescription="Small box Conveyor" />
+    <NodeData Key="30" Location="45 570" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Sr" />
+    <NodeData Key="31" Location="-215 605" NodeType="InputBit" MemMapAddress="11" NodeDescription="Small Box Exit Sensor" />
+    <NodeData Key="32" Location="-230 515" NodeType="InputBit" MemMapAddress="10" NodeDescription="Small Box Entry Sensor" />
+    <NodeData Key="33" Location="-735 510" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="34" Location="-735 590" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="35" Location="-72.481852838632335 524.93436174039857" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="36" Location="-68.935959773538457 628.94722498314877" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="38" Location="-1930 95" NodeType="InputBit" MemMapAddress="4" NodeDescription="Large Boxes Beam" />
+    <NodeData Key="39" Location="-1700 120" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Sr" />
+    <NodeData Key="40" Location="-1970 185" NodeType="InputBit" MemMapAddress="14" NodeDescription="Large Box Entry Sensor" />
+    <NodeData Key="41" Location="-1720 200" NodeType="InputBit" MemMapAddress="8" NodeDescription="Capacitive Sensor 1" />
+    <NodeData Key="42" Location="-1560 175" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.And2" />
+    <NodeData Key="43" Location="-1280 215" NodeType="OutputBit" MemMapAddress="2" NodeDescription="Large Box Chain Transfer" />
+    <NodeData Key="37" Location="-1310 390" NodeType="OutputBit" MemMapAddress="3" NodeDescription="Small Box Chain Transfer" />
+    <NodeData Key="46" Location="-1775 350" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Sr" />
+    <NodeData Key="47" Location="-2095 260" NodeType="InputBit" MemMapAddress="6" NodeDescription="Small Boxes Beam" />
+    <NodeData Key="48" Location="-2030 425" NodeType="InputBit" MemMapAddress="10" NodeDescription="Small Box Entry Sensor" />
+    <NodeData Key="49" Location="-1885 435" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="50" Location="-1830 190" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="44" Location="-1620 380" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.And2" />
+    <NodeData Key="45" Location="-1755 440" NodeType="InputBit" MemMapAddress="8" NodeDescription="Capacitive Sensor 1" />
+    <NodeData Key="51" Location="-1425 220" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Sr" />
+    <NodeData Key="52" Location="-1725 275" NodeType="InputBit" MemMapAddress="14" NodeDescription="Large Box Entry Sensor" />
+    <NodeData Key="53" Location="-1575 285" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="54" Location="-1495 410" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Sr" />
+    <NodeData Key="55" Location="-1525.1 494.80000000000018" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="56" Location="-1675 490" NodeType="InputBit" MemMapAddress="10" NodeDescription="Small Box Entry Sensor" />
+    <NodeData Key="57" Location="-1915 300" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.And2" />
+    <NodeData Key="58" Location="-2180 350" NodeType="InputBit" MemMapAddress="4" NodeDescription="Large Boxes Beam" />
+    <NodeData Key="59" Location="-2060 350" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="3" Location="415 -15" NodeType="OutputBit" MemMapAddress="8" NodeDescription="Start Button 1 (Light)" />
+    <NodeData Key="2" Location="50 5" NodeType="InputBit" MemMapAddress="9" NodeDescription="Start Button 1" />
+    <NodeData Key="60" Location="-1280 -195" NodeType="OutputInt" MemMapAddress="0" NodeDescription="Large Size Boxes" />
+    <NodeData Key="61" Location="-640 -240" NodeType="OutputInt" MemMapAddress="1" NodeDescription="Small Size Boxes" />
+    <NodeData Key="62" Location="-1120 -325" NodeType="InputBit" MemMapAddress="10" NodeDescription="Small Box Entry Sensor" />
+    <NodeData Key="63" Location="-1760 -335" NodeType="InputBit" MemMapAddress="14" NodeDescription="Large Box Entry Sensor" />
+    <NodeData Key="64" Location="-1455 -245" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Ctu" />
+    <NodeData Key="65" Location="-1660 -150" NodeType="NumericalSource" OutSource="5" SourceValue="5" MinValue="0" MaxValue="10000" />
+    <NodeData Key="66" Location="-825 -235" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Ctu" />
+    <NodeData Key="67" Location="-1030 -140" NodeType="NumericalSource" OutSource="5" SourceValue="5" MinValue="0" MaxValue="10000" />
+    <NodeData Key="68" Location="-1665 -220" NodeType="InputBit" MemMapAddress="15" NodeDescription="Large Boxes Reset" />
+    <NodeData Key="69" Location="-1035 -200" NodeType="InputBit" MemMapAddress="16" NodeDescription="Small Boxes Reset" />
+    <NodeData Key="70" Location="-635 -325" NodeType="OutputBit" MemMapAddress="18" NodeDescription="Small boxes Max" />
+    <NodeData Key="71" Location="-1255 -295" NodeType="OutputBit" MemMapAddress="17" NodeDescription="Large boxes Max" />
+    <NodeData Key="72" Location="-980 -275" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="73" Location="-1580 -305" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="74" Location="-1160 0" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Ctu" />
+    <NodeData Key="76" Location="-1580 -70" NodeType="InputBit" MemMapAddress="14" NodeDescription="Large Box Entry Sensor" />
+    <NodeData Key="77" Location="-1400 -40" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="75" Location="-1305 25" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Or2" />
+    <NodeData Key="78" Location="-1590 15" NodeType="InputBit" MemMapAddress="10" NodeDescription="Small Box Entry Sensor" />
+    <NodeData Key="79" Location="-1450 65" NodeType="InternalCustomNode" AssemblyName="Function Blocks" NodeID="ControlIO.Plugins.FunctionBlocks.Not" />
+    <NodeData Key="80" Location="-990 -30" NodeType="OutputInt" MemMapAddress="2" NodeDescription="Total Boxes" />
+    <NodeData Key="81" Location="-1290 120" NodeType="NumericalSource" OutSource="10000" SourceValue="10000" MinValue="0" MaxValue="10000" />
+    <LinkData From="7" To="6" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="6" To="5" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="9" To="12" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="12" To="11" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="18" To="17" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="21" To="17" FromPort="Out-Bit-0" ToPort="In-Bit-3" NodeType="LinkData" />
+    <LinkData From="17" To="12" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="19" To="10" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="10" To="17" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="20" To="22" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="22" To="17" FromPort="Out-Bit-0" ToPort="In-Bit-2" NodeType="LinkData" />
+    <LinkData From="13" To="15" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="14" To="16" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="24" To="23" FromPort="Out-Bit-0" ToPort="In-Bit-3" NodeType="LinkData" />
+    <LinkData From="15" To="23" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="16" To="23" FromPort="Out-Bit-0" ToPort="In-Bit-2" NodeType="LinkData" />
+    <LinkData From="23" To="7" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="27" To="28" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="30" To="29" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="33" To="27" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="34" To="27" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="35" To="30" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="36" To="30" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="32" To="35" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="31" To="36" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="26" To="33" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="25" To="34" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="41" To="42" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="48" To="49" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="49" To="46" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="50" To="39" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="40" To="50" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="46" To="44" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="45" To="44" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="39" To="42" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="42" To="51" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="52" To="53" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="53" To="51" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="44" To="54" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="56" To="55" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="55" To="54" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="8" To="23" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="51" To="43" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="54" To="37" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="38" To="39" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="57" To="46" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="47" To="57" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="59" To="57" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="58" To="59" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="6" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="4" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="2" To="3" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="65" To="64" FromPort="Out-Double-0" ToPort="In-Double-2" NodeType="LinkData" />
+    <LinkData From="64" To="60" FromPort="Out-Double-1" ToPort="In-Double-0" NodeType="LinkData" />
+    <LinkData From="67" To="66" FromPort="Out-Double-0" ToPort="In-Double-2" NodeType="LinkData" />
+    <LinkData From="66" To="61" FromPort="Out-Double-1" ToPort="In-Double-0" NodeType="LinkData" />
+    <LinkData From="68" To="64" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="69" To="66" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="66" To="70" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="64" To="71" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="62" To="72" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="72" To="66" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="63" To="73" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="73" To="64" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="76" To="77" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="77" To="75" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="75" To="74" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="78" To="79" FromPort="Out-Bit-0" ToPort="In-Bit-0" NodeType="LinkData" />
+    <LinkData From="79" To="75" FromPort="Out-Bit-0" ToPort="In-Bit-1" NodeType="LinkData" />
+    <LinkData From="74" To="80" FromPort="Out-Double-1" ToPort="In-Double-0" NodeType="LinkData" />
+    <LinkData From="81" To="74" FromPort="Out-Double-0" ToPort="In-Double-2" NodeType="LinkData" />
+  </Diagram>
+</ControlIO>
